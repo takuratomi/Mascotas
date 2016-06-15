@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 21-mar-2016 1:53:18 by Hibernate Tools 4.0.0 -->
+<hibernate-mapping>
+    <class name="co.edu.usbcali.modelo.Clientes" table="clientes" schema="public">
+        <id name="cliCedula" type="long">
+            <column name="cli_cedula" precision="10" scale="0" />
+            <generator class="assigned" />
+        </id>
+        <property name="cliNombre" type="string">
+            <column name="cli_nombre" length="30" not-null="true" />
+        </property>
+        <property name="cliDireccion" type="string">
+            <column name="cli_direccion" length="30" not-null="true" />
+        </property>
+        <property name="cliTelefono" type="string">
+            <column name="cli_telefono" length="30" not-null="true" />
+        </property>
+        <set name="mascotases" table="mascotas" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="cli_cedula" precision="10" scale="0" not-null="true" />
+            </key>
+            <one-to-many class="co.edu.usbcali.modelo.Mascotas" />
+        </set>
+    </class>
+</hibernate-mapping>

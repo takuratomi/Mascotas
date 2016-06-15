@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 21-mar-2016 1:53:18 by Hibernate Tools 4.0.0 -->
+<hibernate-mapping>
+    <class name="co.edu.usbcali.modelo.Vacunas" table="vacunas" schema="public">
+        <id name="vacCodigo" type="long">
+            <column name="vac_codigo" precision="10" scale="0" />
+            <generator class="assigned" />
+        </id>
+        <property name="vacNombre" type="string">
+            <column name="vac_nombre" length="50" not-null="true" />
+        </property>
+        <set name="vacunasMascotases" table="vacunas_mascotas" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="vac_codigo" precision="10" scale="0" not-null="true" />
+            </key>
+            <one-to-many class="co.edu.usbcali.modelo.VacunasMascotas" />
+        </set>
+    </class>
+</hibernate-mapping>

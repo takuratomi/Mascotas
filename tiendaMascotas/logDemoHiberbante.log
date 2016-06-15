@@ -1,0 +1,82 @@
+0    [INFO] org.hibernate.annotations.common.Version 2016-02-23 01:06:28,523  HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+10   [INFO] org.hibernate.Version 2016-02-23 01:06:28,533  HHH000412: Hibernate Core {4.3.11.Final}
+13   [INFO] org.hibernate.cfg.Environment 2016-02-23 01:06:28,536  HHH000206: hibernate.properties not found
+15   [INFO] org.hibernate.cfg.Environment 2016-02-23 01:06:28,538  HHH000021: Bytecode provider name : javassist
+38   [INFO] org.hibernate.cfg.Configuration 2016-02-23 01:06:28,561  HHH000043: Configuring from resource: /hibernate.cfg.xml
+39   [INFO] org.hibernate.cfg.Configuration 2016-02-23 01:06:28,562  HHH000040: Configuration resource: /hibernate.cfg.xml
+82   [WARN] org.hibernate.internal.util.xml.DTDEntityResolver 2016-02-23 01:06:28,605  HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+118  [INFO] org.hibernate.cfg.Configuration 2016-02-23 01:06:28,641  HHH000221: Reading mappings from resource: co/edu/usbcali/modelo/Vacunas.hbm.xml
+203  [WARN] org.hibernate.internal.util.xml.DTDEntityResolver 2016-02-23 01:06:28,726  HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+269  [INFO] org.hibernate.cfg.Configuration 2016-02-23 01:06:28,792  HHH000221: Reading mappings from resource: co/edu/usbcali/modelo/VacunasMascotas.hbm.xml
+278  [WARN] org.hibernate.internal.util.xml.DTDEntityResolver 2016-02-23 01:06:28,801  HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+385  [INFO] org.hibernate.cfg.Configuration 2016-02-23 01:06:28,908  HHH000221: Reading mappings from resource: co/edu/usbcali/modelo/Mascotas.hbm.xml
+391  [WARN] org.hibernate.internal.util.xml.DTDEntityResolver 2016-02-23 01:06:28,914  HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+415  [INFO] org.hibernate.cfg.Configuration 2016-02-23 01:06:28,938  HHH000221: Reading mappings from resource: co/edu/usbcali/modelo/Clientes.hbm.xml
+420  [WARN] org.hibernate.internal.util.xml.DTDEntityResolver 2016-02-23 01:06:28,943  HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+433  [INFO] org.hibernate.cfg.Configuration 2016-02-23 01:06:28,956  HHH000041: Configured SessionFactory: null
+590  [WARN] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 2016-02-23 01:06:29,113  HHH000402: Using Hibernate built-in connection pool (not for production use!)
+605  [INFO] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 2016-02-23 01:06:29,128  HHH000401: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/mascotas]
+605  [INFO] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 2016-02-23 01:06:29,128  HHH000046: Connection properties: {user=postgres, password=****}
+606  [INFO] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 2016-02-23 01:06:29,129  HHH000006: Autocommit mode: false
+610  [INFO] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 2016-02-23 01:06:29,133  HHH000115: Hibernate connection pool size: 20 (min=1)
+1360 [INFO] org.hibernate.dialect.Dialect 2016-02-23 01:06:29,883  HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+1376 [INFO] org.hibernate.engine.jdbc.internal.LobCreatorBuilder 2016-02-23 01:06:29,899  HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+1574 [INFO] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator 2016-02-23 01:06:30,097  HHH000399: Using default transaction strategy (direct JDBC transactions)
+1581 [INFO] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory 2016-02-23 01:06:30,104  HHH000397: Using ASTQueryTranslatorFactory
+2458 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,981  John Smith
+2458 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,981  CALLE 100 # 54-09
+2459 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,982  555-4562
+2459 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,982  10
+2459 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,982  Logan Pardo
+2459 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,982  CARRERA 64B # 14-09
+2459 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,982  434-4562
+2459 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,982  15
+2459 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,982  Jacob Martin
+2459 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,982  AVE 6 # 100-09
+2460 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,983  465-4562
+2460 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,983  20
+2460 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,983  Benjamin Jares
+2460 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,983  CRA 15 # 80-09
+2461 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,984  865-4562
+2461 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,984  25
+2461 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,984  Jack Nicols
+2461 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,984  CALLE 90 # 76-14
+2461 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,984  144-4562
+2462 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,985  30
+2462 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,985  Noah Gooshling
+2462 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,985  CALLE 100 # 60-89
+2462 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,985  890-4562
+2462 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,985  35
+2465 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,988  William Navarro
+2465 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,988  AVE 6A # 90-09
+2465 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,988  657-4562
+2466 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,989  40
+2466 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,989  Andrew Manchers
+2466 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,989  CARRERA 8 # 43-19
+2466 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,989  781-4562
+2466 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,989  45
+2466 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,989  Samuel Salgado
+2466 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,989  AVE 78 # 1-09
+2467 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,990  123-4762
+2467 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,990  50
+2467 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,990  Joseph Mejia
+2467 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,990  CALLE 1 # 9-09
+2467 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,990  755-4532
+2467 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,990  55
+2467 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,990  Daniel Salsedo
+2468 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,991  CALLE 9 # 7-09
+2468 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,991  855-4552
+2468 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,991  60
+2468 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,991  Anthony Gomez
+2468 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,991  CALLE 15 # 107-99
+2468 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,991  955-4562
+2468 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,991  65
+2468 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,991  Angel Smith
+2472 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,995  CALLE 16 # 67-96
+2472 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,995  355-4569
+2473 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,996  70
+2474 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,997  Jacob Williams
+2474 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,997  AVE 6 # 65-109
+2475 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,998  155-4562
+2475 [INFO] co.edu.usbcali.mascota.test.TestHQLCliente 2016-02-23 01:06:30,998  75
+2478 [INFO] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 2016-02-23 01:06:31,001  HHH000030: Cleaning up connection pool [jdbc:postgresql://localhost:5432/mascotas]
